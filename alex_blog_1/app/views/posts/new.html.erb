@@ -1,4 +1,5 @@
 <h1>New Post</h1>
+<div class="container">
 
 <%= form_for :post, url: posts_path do |f| %>
 	<%= f.label :title %><br>
@@ -7,3 +8,4 @@
 	<%= f.text_area :content%><br>
 	<%= f.submit %>
 <% end %>
+</div>
